@@ -1,5 +1,7 @@
 package com.stormrunner.supramod;
 
+import com.stormrunner.supramod.blocks.BlockInit;
+
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -17,6 +19,8 @@ public class SupraMod {
 		bus.addListener(this::setup);
 		
 		ItemInit.ITEMS.register(bus);
+		
+		//BlockInit.BLOCKS.register(bus);
 		
 		MinecraftForge.EVENT_BUS.register(this);
 	}

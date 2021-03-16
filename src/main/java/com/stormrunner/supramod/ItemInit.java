@@ -18,5 +18,5 @@ public class ItemInit {
 			() -> new SwordItem(new CustomItemTier(1000000, 10, 5, 1, 30, null), 5, 1.25f, 
 			new SwordItem.Properties().group(ItemGroup.COMBAT)));
 	
-	
+	public static final RegistryObject<Item> RED_MOON = ITEMS.register("red_moon", () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
 }

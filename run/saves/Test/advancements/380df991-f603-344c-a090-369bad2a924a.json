@@ -1,13 +1,43 @@
 {
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2021-03-16 07:50:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2021-03-16 07:50:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2021-03-16 07:50:58 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2021-03-15 13:07:55 -0600"
     },
     "done": true
   },
-  "minecraft:adventure/root": {
+  "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
-      "killed_something": "2021-03-15 15:00:52 -0600"
+      "has_stick": "2021-03-16 07:50:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2021-03-16 07:50:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-03-16 08:17:57 -0600"
     },
     "done": true
   },
@@ -17,21 +47,58 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/stick_from_bamboo_item": {
-    "criteria": {
-      "has_bamboo": "2021-03-15 13:07:55 -0600"
-    },
-    "done": true
-  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:zombie": "2021-03-15 15:00:52 -0600"
     },
     "done": false
   },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2021-03-16 07:50:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2021-03-16 07:50:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2021-03-16 07:50:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2021-03-16 07:50:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2021-03-16 07:50:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-03-15 15:00:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2021-03-15 13:07:55 -0600"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:jungle_edge": "2021-03-15 14:57:57 -0600",
+      "minecraft:jungle": "2021-03-16 08:00:28 -0600",
       "minecraft:bamboo_jungle": "2021-03-15 13:07:51 -0600",
       "minecraft:river": "2021-03-15 14:57:59 -0600",
       "minecraft:plains": "2021-03-15 13:02:55 -0600"
