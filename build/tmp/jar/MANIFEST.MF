@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: funMod
+Implementation-Version: 1.0
+Specification-Vendor: examplemodsareus
+Specification-Title: examplemod
+Implementation-Timestamp: 2021-03-16T20:42:08-0600
+Specification-Version: 1
+Implementation-Vendor: examplemodsareus
+

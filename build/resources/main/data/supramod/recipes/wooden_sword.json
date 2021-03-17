@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " # ",
+        " / "
+    ],
+    "key": {
+    	"#": { 
+    		"item": "supramod:red_moon"
+    	},
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "supramod:wooden_sword",
+        "count": 1
+    }
+}
