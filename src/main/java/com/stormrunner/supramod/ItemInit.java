@@ -1,7 +1,10 @@
 package com.stormrunner.supramod;
 
+import com.stormrunner.supramod.blocks.BlockInit;
 import com.stormrunner.supramod.items.CustomItemTier;
 
+import net.minecraft.block.Block;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.Properties;
 import net.minecraft.item.ItemGroup;
@@ -19,4 +22,11 @@ public class ItemInit {
 			new SwordItem.Properties().group(ItemGroup.COMBAT)));
 	
 	public static final RegistryObject<Item> RED_MOON = ITEMS.register("red_moon", () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+	
+	//////////BlockItems//////////////////////
+
+	public static final RegistryObject<BlockItem> RED_MOON_BLOCK = ITEMS.register("red_moon_ore",
+			() -> new BlockItem(BlockInit.RED_MOON_BLOCK.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	
+	
 }

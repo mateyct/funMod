@@ -20,7 +20,7 @@ public class SupraMod {
 		
 		ItemInit.ITEMS.register(bus);
 		
-		//BlockInit.BLOCKS.register(bus);
+		BlockInit.BLOCKS.register(bus);
 		
 		MinecraftForge.EVENT_BUS.register(this);
 	}

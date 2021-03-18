@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": { 
+		"all": "supramod:blocks/red_moon_ore"
+	}
+}
