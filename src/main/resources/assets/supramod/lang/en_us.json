@@ -1,5 +1,7 @@
 {
 	"item.supramod.wooden_sword": "Wooden Sword",
 	"item.supramod.red_moon": "Red Moon",
-	"block.supramod.red_moon_ore": "Red Moon Ore"
+	"block.supramod.red_moon_ore": "Red Moon Ore",
+	"item.supramod.supragun": "Supragun",
+	"tooltip.supramod.special_item.hold_shift": "Hold \u00A71Shift \u00A77for information."
 }
